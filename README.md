@@ -26,10 +26,14 @@ ASTRA_DB_ID: Your ASTRA DB ID for identifying the database.
 
 
 ## Usage
- Document Loading: The code includes a web-based document loader (WebBaseLoader) to fetch text content from specified web pages.
+Document Loading: The code includes a web-based document loader (WebBaseLoader) to fetch text content from specified web pages.
+
 Text Splitting: Utilizes RecursiveCharacterTextSplitter to break down the text content into smaller chunks for processing.
+
 Embeddings: Incorporates OpenAI embeddings (OpenAIEmbeddings) to convert text data into vector representations.
+
 Vector Storage: Utilizes Cassandra as the vector store (Cassandra) to store the vector representations of the text data.
+
 Indexing: Implements a vector store index wrapper (VectorStoreIndexWrapper) to efficiently query the vector store for relevant information.
 
 ## Contributing
